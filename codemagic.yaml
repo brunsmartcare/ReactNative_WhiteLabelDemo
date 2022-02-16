@@ -14,7 +14,7 @@ workflows:
         working_directory: android
         script: ./gradlew bundleRelease
     artifacts:
-      - app/build/outputs/bundle/**/*.aab
+      - android/app/build/outputs/bundle/**/*.aab
     publishing:
       email:
         recipients:
