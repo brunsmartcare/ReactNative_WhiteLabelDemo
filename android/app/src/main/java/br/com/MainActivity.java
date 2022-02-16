@@ -1,4 +1,4 @@
-package com.whitelabeldemo;
+package br.com;
 
 import com.facebook.react.ReactActivity;
 

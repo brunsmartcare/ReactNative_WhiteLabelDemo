@@ -1,4 +1,4 @@
-package com.whitelabeldemo;
+package br.com;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
@@ -36,7 +36,7 @@ public class WhiteLabelConfig extends ReactContextBaseJavaModule {
     @Nonnull
     @ReactMethod(isBlockingSynchronousMethod = true)
     public String getPrimaryColor() {
-        return "#800080";
+        return "#008000";
     }
 
     @Nonnull
@@ -48,6 +48,6 @@ public class WhiteLabelConfig extends ReactContextBaseJavaModule {
     @Nonnull
     @ReactMethod(isBlockingSynchronousMethod = true)
     public String getGreetingText() {
-        return "Legends of the Hidden Temple Rules!!!!!";
+        return "Legends of the Hidden Temple Rocks!!!!!";
     }
 }

@@ -1,4 +1,3 @@
-// AppTheme.tsx
 
 import { StyleSheet } from 'react-native';
 import whiteLabelConfig from './whitelabel/WhiteLabelConfig';
@@ -29,6 +28,6 @@ export default StyleSheet.create({
         alignItems: 'center'
     },
     greetingText: {
-        color: whiteLabelConfig.PRIMARY_TEXT_COLOR
+        color: whiteLabelConfig.PRIMARY_TEXT_COLOR,
     }
 });
