@@ -228,19 +228,6 @@ dependencies {
     }
 }
 
-//task renameBundle(type: Copy) {
-//    from "$buildDir/outputs/bundle/release"
-//    into "$buildDir/outputs/bundle/release"
-//
-//    rename 'app.aab', "${android.defaultConfig.versionName}.aab"
-//}
-//
-//task deleteOriginalBundleFile(type: Delete) {
-//    delete fileTree("$buildDir/outputs/bundle/release").matching {
-//        include "app.aab"
-//    }
-//}
-
 // Run this once to be able to run the application with BUCK
 // puts all compile dependencies into folder libs for BUCK to use
 task copyDownloadableDepsToLibs(type: Copy) {
