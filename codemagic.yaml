@@ -14,11 +14,11 @@ workflows:
         working_directory: android
         script: ./gradlew bundleRelease
     artifacts:
-      - build/**/outputs/bundle/**/**/*.aab
+      - app/build/outputs/bundle/**/*.aab
     publishing:
       email:
         recipients:
-          - joaob@smartcon.dev.br.com
+          - joaob@smartcon.dev.br
         notify:
           success: true     # To not receive a notification when a build succeeds
           failure: false
