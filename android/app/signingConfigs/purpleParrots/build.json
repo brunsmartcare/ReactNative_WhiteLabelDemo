@@ -1,0 +1,10 @@
+{
+  "android": {
+    "release": {
+      "keystore": "purpleParrots.keystore",
+      "storePassword": "654321",
+      "alias": "purpleParrots",
+      "password": "654321"
+    }
+  }
+}
